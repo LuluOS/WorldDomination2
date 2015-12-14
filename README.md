@@ -3,7 +3,7 @@
 CST-205: Multimedia Design & Progmng
 Instructor: Avner Biblarz <abiblarz@csumb.edu>
 
-Project 3
+Project 3 - Github: https://github.com/LuluOS/WorldDomination2
 Information:
 This program use BeautifulSoup to search a given word in the www.reddit.com webpage. If it found something related with the given word it is going to return the links for the news founded. Otherwise is going to show a "error" message.
 
