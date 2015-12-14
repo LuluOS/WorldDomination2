@@ -116,7 +116,7 @@ if __name__ == '__main__':
 	#""" loop to search into all pages """
 	for i in range(pagesNumbers):
 		data = webPages[i].text
-		soup = BeautifulSoup(data)
+		soup = BeautifulSoup(data,"lxml")
 		
 		#""" returns all tags that contains the class 'may-blank' to the list called mayblank """
 		mayblank = soup.findAll('a', attrs={'class':'may-blank'}) #""" returns a list with all class called 'may-blank' """
